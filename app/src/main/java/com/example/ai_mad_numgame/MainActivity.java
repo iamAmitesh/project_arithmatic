@@ -146,6 +146,10 @@ public class MainActivity extends AppCompatActivity {
         //Computing the sum of score array, which has the 1 or in each index,depending on correct or incorrect answers
         int sum=0;
        // your code here
+        for(int i=0;i<score.length;i++)
+        {
+            sum+=score[i];
+        }
         return sum;
     }
 
