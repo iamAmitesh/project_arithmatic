@@ -173,6 +173,10 @@ public class MainActivity extends AppCompatActivity {
         {
             return   "Improvement Required";
         }
+        else if(dataFrame[0][1]==3 && slope==0.0)
+        {
+            return "Maximum Performance";
+        }
         return "Your Interpretation";
     }
 }
