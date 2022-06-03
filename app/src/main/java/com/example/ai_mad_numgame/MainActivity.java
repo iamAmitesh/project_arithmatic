@@ -177,6 +177,10 @@ public class MainActivity extends AppCompatActivity {
         {
             return "Maximum Performance";
         }
+        else if(slope>0.0 && slope<0.5)
+        {
+            return "You're improving slowly";
+        }
         return "Your Interpretation";
     }
 }
