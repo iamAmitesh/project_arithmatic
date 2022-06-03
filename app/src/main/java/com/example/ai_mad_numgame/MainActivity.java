@@ -181,6 +181,9 @@ public class MainActivity extends AppCompatActivity {
         {
             return "You're improving slowly";
         }
+        else if(slope>0.5){
+            return "Getting Better";
+        }
         return "Your Interpretation";
     }
 }
